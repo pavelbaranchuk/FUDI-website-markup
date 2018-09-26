@@ -15,10 +15,10 @@
 
   &__link {
     text-decoration-line: none;
-    color: $link-coolor;
+    color: $dark;
     &:hover {
       text-decoration: underline;
-      color: darken($link-coolor, 40%);
+      color: darken($dark, 40%);
     }
   }
 
@@ -26,15 +26,15 @@
     margin: 20px;
     font-family: $basic-font-stack;
     font-weight: normal;
-    color: $link-coolor;
+    color: $dark;
     font-size: 15px;
   }
 
   &__icon {
     margin: 0 5px 0 5px;
-    color: $link-coolor;
+    color: $dark;
     &:hover {
-      color: darken($link-coolor, 40%);
+      color: darken($dark, 40%);
     }
   }
 

@@ -2,8 +2,11 @@ $container-width: 860px;
 $medium-padding: 40px;
 
 $white: rgba(255, 255, 255, 255);
-$black: rgba(0, 0, 0, 255);
+$dark: rgba(0, 0, 0, 255);
 $footer: rgba(139, 139, 139, 255);
+$gray: #f7f7f7;
+$reviews-color: #4a3949;
+$main: #f57365;
 
 $medium-weight: 500;
 $black-weight: 900;
@@ -13,7 +16,7 @@ $basic-font-stack: Lato-Light, AdobeInvisFont, MyriadPro-Regular;
 $heading-font-stack: Lato-Bold, AdobeInvisFont, MyriadPro-Regular;
 
 @mixin large-break-point {
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 700px) {
     @content;
   }
 }

@@ -1,0 +1,97 @@
+.browse {
+  margin: 60px 0 40px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__heading {
+    text-align: center;
+    margin: 0 0 30px;
+  }
+
+  &__container-test {
+    display: flex;
+    text-align: center;
+  }
+
+  &__recipes {
+    font-family: TimesNewRomanPS-BoldItalicMT, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12px;
+  }
+
+  &__cousine {
+    font-family: $heading-font-stack;
+    font-size: 30px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &-sub {
+      margin: 2px;
+      color: $white;
+    }
+  }
+
+  &__1 {
+    background: url("../assets/img/food-1.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__2 {
+    background: url("../assets/img/food-2.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__3 {
+    background: url("../assets/img/food-3.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__4 {
+    background: url("../assets/img/food-4.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__5 {
+    background: url("../assets/img/food-5.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__6 {
+    background: url("../assets/img/food-6.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__7 {
+    background: url("../assets/img/food-7.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__8 {
+    background: url("../assets/img/food-8.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__9 {
+    background: url("../assets/img/food-9.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  &__10 {
+    background: url("../assets/img/food-10.png") center/cover no-repeat;
+    width: 20vw;
+    height: 15vw;
+  }
+}
