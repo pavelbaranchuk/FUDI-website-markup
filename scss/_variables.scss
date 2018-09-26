@@ -1,0 +1,24 @@
+$container-width: 860px;
+$medium-padding: 40px;
+
+$white: rgba(255, 255, 255, 255);
+$black: rgba(0, 0, 0, 255);
+$footer: rgba(139, 139, 139, 255);
+
+$medium-weight: 500;
+$black-weight: 900;
+$light-weight: 300;
+
+$basic-font-stack: Lato-Light, AdobeInvisFont, MyriadPro-Regular;
+$heading-font-stack: Lato-Bold, AdobeInvisFont, MyriadPro-Regular;
+
+@mixin large-break-point {
+  @media only screen and (max-width: 640px) {
+    @content;
+  }
+}
+@mixin small-break-point {
+  @media only screen and (max-width: 480px) {
+    @content;
+  }
+}

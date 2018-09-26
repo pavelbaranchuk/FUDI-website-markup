@@ -1,0 +1,50 @@
+.heading {
+  margin: 0 0 22px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: $heading;
+  text-transform: uppercase;
+  &_underlined {
+    padding-bottom: 18px;
+    position: relative;
+    &:after {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      content: "";
+      position: absolute;
+      background-color: rgba(41, 49, 57, 0.06);
+      height: 2px;
+      width: 100%;
+    }
+  }
+  &_image {
+    display: flex;
+    align-items: center;
+  }
+  &__image {
+    margin-right: 12px;
+    font-size: 21px;
+    color: #c6cbd1;
+  }
+  &_bigger {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  @include to640 {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0 0 15px;
+    text-align: center;
+    &__image {
+      margin-right: 6px;
+      font-size: 17px;
+    }
+    &_bigger {
+      justify-content: center;
+      font-size: 15px;
+      line-height: 16px;
+    }
+  }
+}

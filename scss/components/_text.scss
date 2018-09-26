@@ -1,0 +1,11 @@
+.text {
+  margin: 0;
+  font-family: $main-font;
+  font-size: 14px;
+  color: $main-text;
+  line-height: 24px;
+  @include to640 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

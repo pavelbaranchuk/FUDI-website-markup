@@ -1,0 +1,122 @@
+.header {
+  background: url("../img/Major-screen.jpg") center/cover no-repeat;
+  text-align: center;
+  color: $white-title;
+
+  &__menu {
+    margin: 70px 0 80px;
+
+    &-item {
+      display: inline-block;
+      margin: 0 30px 0 0;
+    }
+  }
+
+  &__subheading {
+    position: relative;
+    font: normal normal 16px $heading-font-stack;
+    max-width: 615px;
+    margin: 0 auto 62px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      background-color: rgba(255, 255, 255, 0.24);
+      width: 80px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &:before {
+      left: 85px;
+    }
+    &:after {
+      right: 85px;
+    }
+  }
+
+  &__status {
+    color: $white-title;
+    margin: -20px 0 28px 0;
+    font-size: 50px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  &__name {
+    margin: 120px 0 0 0;
+    font-size: 50pt;
+    font-family: myBelinda;
+  }
+
+  &__button {
+    background: $main-color;
+    border-radius: 30px;
+    padding: 15px 50px;
+    margin: 10px 0 100px 0;
+    border: 0 none;
+    color: $white-title;
+    font-family: $heading-font-stack;
+    &:hover {
+      background-color: darken($main-color, 20%);
+    }
+  }
+
+  &__link {
+    color: $white-title;
+    font: normal normal 15px $basic-font-stack;
+    text-decoration: none;
+  }
+
+  @include large-break-point {
+    padding: 30px 0;
+    &__heading {
+      margin-bottom: 15px;
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    &__subheading {
+      margin-bottom: 40px;
+      font-size: 16px;
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+
+    &__button {
+      background: $main-color;
+      border-radius: 30px;
+      padding: 15px 30px;
+      margin: 0 0 40px 0;
+      font-size: $heading-font-stack;
+    }
+
+    &__menu {
+      margin-bottom: 50px;
+    }
+
+    &__name {
+      margin: 70px 0 0 0;
+    }
+    &__status {
+      font-size: 35px;
+    }
+  }
+  @include small-break-point {
+    padding: 20px 0 15px;
+
+    &__menu {
+      &-item {
+        margin: 0 20px 0 0;
+      }
+    }
+
+    &__subheading {
+      margin-bottom: 40px;
+    }
+  }
+}

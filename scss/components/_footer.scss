@@ -1,0 +1,46 @@
+.footer {
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__copyright {
+    opacity: 0.8;
+  }
+
+  &__light {
+    opacity: 0.5;
+  }
+
+  &__link {
+    text-decoration-line: none;
+    color: $link-coolor;
+    &:hover {
+      text-decoration: underline;
+      color: darken($link-coolor, 40%);
+    }
+  }
+
+  &__item {
+    margin: 20px;
+    font-family: $basic-font-stack;
+    font-weight: normal;
+    color: $link-coolor;
+    font-size: 15px;
+  }
+
+  &__icon {
+    margin: 0 5px 0 5px;
+    color: $link-coolor;
+    &:hover {
+      color: darken($link-coolor, 40%);
+    }
+  }
+
+  @include small-break-point {
+    &__item {
+      font-size: 12px;
+    }
+  }
+}
