@@ -35,6 +35,14 @@
     }
   }
 
+  &__link {
+    text-decoration: none;
+    &:hover {
+      filter: brightness(50%);
+      transition: all 1s ease;
+    }
+  }
+
   &__1 {
     background: url("../assets/img/food-1.png") center/cover no-repeat;
     width: 20vw;
@@ -93,5 +101,81 @@
     background: url("../assets/img/food-10.png") center/cover no-repeat;
     width: 20vw;
     height: 15vw;
+  }
+
+  @include extra-large-break-point {
+    &__cousine {
+      font-size: 20px;
+    }
+  }
+
+  @include large-break-point {
+    &__container-test {
+      display: block;
+      margin: 0 10vw 0 10vw;
+    }
+
+    &__cousine {
+      font-size: 40px;
+    }
+
+    &__1 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__2 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__3 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__4 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__5 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__6 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__7 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__8 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__9 {
+      width: 80vw;
+      height: 55vw;
+      margin-bottom: 20px;
+    }
+
+    &__10 {
+      width: 80vw;
+      height: 55vw;
+    }
   }
 }

@@ -1,0 +1,35 @@
+.statistic {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+  }
+
+  &__number {
+    font-family: $heading-font-stack;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  &__name {
+    margin: 5px 0 40px 0;
+  }
+
+  @include large-break-point {
+    &__number {
+      font-size: 20px;
+    }
+
+    &__name {
+      font-size: 12px;
+      padding: 0 5px 0 5px;
+    }
+  }
+
+  @include small-break-point {
+    &__number {
+      font-size: 12px;
+    }
+  }
+}

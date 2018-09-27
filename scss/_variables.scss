@@ -15,6 +15,12 @@ $light-weight: 300;
 $basic-font-stack: Lato-Light, AdobeInvisFont, MyriadPro-Regular;
 $heading-font-stack: Lato-Bold, AdobeInvisFont, MyriadPro-Regular;
 
+@mixin extra-large-break-point {
+  @media only screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
 @mixin large-break-point {
   @media only screen and (max-width: 700px) {
     @content;
