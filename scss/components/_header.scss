@@ -1,0 +1,107 @@
+.header {
+  background: url("../assets/img/main.png") center/cover no-repeat;
+  color: $white;
+  height: 500px;
+  &__text {
+    text-align: center;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+  }
+
+  &__link-button {
+    &:hover {
+      background-color: lighten($main, 0%);
+      transition: all 1s ease;
+    }
+  }
+
+  &__text {
+    font-family: $heading-font-stack;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $white;
+    font-size: 14px;
+    margin-left: 20px;
+    display: inline-block;
+    &:hover {
+      color: darken($white, 20%);
+      text-decoration: underline;
+    }
+  }
+
+  &__favorite {
+    font-size: 35px;
+    font-family: TimesNewRomanPS-BoldItalicMT, AdobeInvisFont,
+      Myriad-Pro-Regular;
+    opacity: 0.7;
+  }
+
+  &__recipes {
+    font-size: 100px;
+    line-height: 0;
+    margin: 70px 0 80px 0;
+  }
+
+  &__button {
+    font-size: 14px;
+    padding: 18px 60px 15px 60px;
+    text-decoration: none;
+    border: 2px solid $white;
+    background-color: transparent;
+    color: $white;
+  }
+
+  &__rewarded {
+    font-size: 12px;
+    font-family: Lato-Regular, AdobeInvisFont, MyriadPro-Regular;
+    margin: 30px 0 150px 0;
+  }
+
+  &__getrewarded {
+    text-decoration: underline;
+  }
+
+  @include large-break-point {
+    &__rewarded {
+      margin: 30px 0 70px 0;
+    }
+  }
+
+  @include small-break-point {
+    height: auto;
+
+    &__link-section {
+      display: none;
+    }
+
+    &__menu {
+      justify-content: center;
+      padding: 70px 0 30px 0;
+    }
+
+    &__image {
+      min-width: 200px;
+    }
+
+    &__rewarded {
+      margin: 30px 0 20px 0;
+      padding: 0 0 30px 0;
+    }
+
+    &__recipes {
+      font-size: 70px;
+      margin: 40px 0 60px 0;
+    }
+  }
+
+  &__favorite {
+    font-size: 25px;
+  }
+}

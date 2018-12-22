@@ -1,0 +1,43 @@
+.footer {
+  background-color: $gray;
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0 25px 0;
+  }
+
+  &__line {
+    margin: 0;
+    opacity: 0.3;
+  }
+  &__designed {
+    opacity: 0.3;
+  }
+
+  &__item-first {
+    font-family: Lato-Light, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 11px;
+    opacity: 0.3;
+  }
+
+  &__item-second {
+    font-family: Lato-Regular, Lato-Light, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12px;
+    opacity: 0.8;
+    letter-spacing: 0.2em;
+  }
+
+  &__link {
+    text-decoration-line: none;
+    color: $dark;
+    &:hover {
+      text-decoration: underline;
+      color: darken($dark, 40%);
+    }
+  }
+
+  @include large-break-point {
+    padding: 0 20px 0 20px;
+  }
+}
