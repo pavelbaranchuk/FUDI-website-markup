@@ -1,10 +1,10 @@
-# 🖥 Task-3
+# FUDI website markup
 
-Fudi website markup
+Played with HTML/CSS
 
 ### 🚀 Getting Started
 
-Follow these steps to run the project:
+## Install dependencies
 
 ```
 npm i
@@ -17,3 +17,7 @@ npm start
 ```
 
 then go to http://localhost:3000
+
+# Screenshot of the website:
+
+![fudi_website](https://user-images.githubusercontent.com/17711411/46116655-d8a33600-c205-11e8-94fc-7fe802ef5a02.jpg)
