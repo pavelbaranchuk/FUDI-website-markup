@@ -18,4 +18,4 @@ then go to http://localhost:3000
 
 # Screenshot of the website:
 
-![fudi](https://user-images.githubusercontent.com/17711411/46116724-24ee7600-c206-11e8-8be0-6d770cf91ec0.jpg)
+![fudi_website](https://user-images.githubusercontent.com/17711411/46116655-d8a33600-c205-11e8-94fc-7fe802ef5a02.jpg)
