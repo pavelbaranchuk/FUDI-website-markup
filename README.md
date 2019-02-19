@@ -1,7 +1,5 @@
 # FUDI website markup
 
-Played with HTML/CSS
-
 ## Install dependencies
 
 ```
